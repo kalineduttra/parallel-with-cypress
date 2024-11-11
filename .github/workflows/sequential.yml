@@ -14,8 +14,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:batch-1
-          build: npm run build
-          start: npm start
   cypress-run-2:
     runs-on: ubuntu-22.04
     steps:
@@ -27,8 +25,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:batch-2
-          build: npm run build
-          start: npm start
   cypress-run-3:
     runs-on: ubuntu-22.04
     steps:
@@ -40,8 +36,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:batch-3
-          build: npm run build
-          start: npm start
   cypress-run-4:
     runs-on: ubuntu-22.04
     steps:
@@ -53,8 +47,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:batch-4
-          build: npm run build
-          start: npm start
   cypress-run-5:
     runs-on: ubuntu-22.04
     steps:
@@ -66,5 +58,3 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:batch-5
-          build: npm run build
-          start: npm start
