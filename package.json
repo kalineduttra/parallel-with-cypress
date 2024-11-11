@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:batch-1": "cypress run --spec 'cypress/e2e/batch-1'",
+    "test:batch-2": "cypress run --spec 'cypress/e2e/batch-2'",
+    "test:batch-3": "cypress run --spec 'cypress/e2e/batch-3'",
+    "test:batch-4": "cypress run --spec 'cypress/e2e/batch-4'",
+    "test:batch-5": "cypress run --spec 'cypress/e2e/batch-5'"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kaline Dutra",
+  "license": "MIT",
   "description": ""
 }
