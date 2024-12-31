@@ -15,7 +15,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm start
           command: npm run test:parallel-1
 
   cypress-run-2:
@@ -28,7 +27,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm start
           command: npm run test:parallel-2
 
   cypress-run-3:
@@ -41,7 +39,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm start
           command: npm run test:parallel-3
 
   cypress-run-4:
@@ -54,7 +51,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm start
           command: npm run test:parallel-4
 
   cypress-run-5:
@@ -67,5 +63,4 @@ jobs:
     - name: Cypress run
       uses: cypress-io/github-action@v6
       with:
-        start: npm start
         command: npm run test:parallel-5
