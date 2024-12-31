@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:parallel-1": "cypress run --spec 'cypress/e2e/parallel-1'",
+    "test:parallel-2": "cypress run --spec 'cypress/e2e/parallel-2'",
+    "test:parallel-3": "cypress run --spec 'cypress/e2e/parallel-3'",
+    "test:parallel-4": "cypress run --spec 'cypress/e2e/parallel-4'",
+    "test:parallel-5": "cypress run --spec 'cypress/e2e/parallel-5'"
   },
   "author": "",
   "license": "ISC",
